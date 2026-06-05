@@ -50,7 +50,7 @@ export default function Home() {
           <Reveal delay={0.4} className="mt-16 relative max-w-5xl mx-auto">
             <div className="absolute inset-0 bg-primary/20 blur-[100px] rounded-full -z-10"></div>
             <div className="rounded-3xl overflow-hidden border border-white/10 shadow-2xl glass">
-              <Image src="/images/hero_abstract.png" alt="GrowthGrid Technology" width={1200} height={600} className="w-full h-auto object-cover opacity-80 mix-blend-screen" />
+              <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2426&auto=format&fit=crop" alt="GrowthGrid Dashboard & Analytics" className="w-full h-auto max-h-[600px] object-cover mix-blend-screen opacity-90" />
             </div>
           </Reveal>
         </div>
@@ -80,6 +80,10 @@ export default function Home() {
                   </li>
                 ))}
               </ul>
+              
+              <div className="mt-8 rounded-2xl overflow-hidden border border-white/10 shadow-lg">
+                <img src="https://images.unsplash.com/photo-1552581234-26160f608093?q=80&w=2070&auto=format&fit=crop" alt="Business Growth Team" className="w-full h-64 object-cover" />
+              </div>
             </Reveal>
             
             <Reveal direction="left" delay={0.2}>
@@ -194,6 +198,86 @@ export default function Home() {
         </div>
       </section>
 
+      {/* 6. FREQUENTLY ASKED QUESTIONS */}
+      <section className="py-24 bg-background">
+        <div className="container mx-auto px-4 md:px-6 max-w-4xl">
+          <Reveal>
+            <div className="text-center mb-16">
+              <h2 className="text-3xl md:text-5xl font-heading font-bold mb-6">Frequently Asked Questions</h2>
+              <p className="text-muted text-lg">Everything you need to know about our services and process.</p>
+            </div>
+          </Reveal>
+          
+          <div className="space-y-6">
+            {[
+              { q: "How much does a business website cost?", a: "Our pricing depends on the complexity and requirements of your project. We offer customized solutions tailored to your business goals. For our Early Partner Program, we have special launch pricing available. Contact us for a precise quote." },
+              { q: "How long does website development take?", a: "A standard professional website typically takes 2-4 weeks from concept to launch. More complex projects with advanced automations or custom web applications may take longer. We always agree on a clear timeline before starting." },
+              { q: "Do you provide SEO services?", a: "Yes! We specialize in Local SEO to help businesses rank #1 on Google and Google Maps. Our SEO strategies are designed to bring high-intent local traffic to your site and convert them into paying customers." },
+              { q: "Can you redesign an existing website?", a: "Absolutely. We often help businesses transform outdated, slow websites into fast, modern, and high-converting digital assets. We'll audit your current site and create a redesign strategy that preserves any existing SEO value." },
+              { q: "Do you offer business automation?", a: "Yes, we integrate intelligent business automations including WhatsApp chatbots, automated email follow-ups, CRM integrations, and lead routing to save you time and close deals faster." }
+            ].map((faq, i) => (
+              <Reveal key={i} delay={i * 0.1}>
+                <div className="glass p-6 md:p-8 rounded-2xl border border-card-border">
+                  <h3 className="text-xl font-bold mb-3">{faq.q}</h3>
+                  <p className="text-muted">{faq.a}</p>
+                </div>
+              </Reveal>
+            ))}
+          </div>
+        </div>
+      </section>
+      
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "How much does a business website cost?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Our pricing depends on the complexity and requirements of your project. We offer customized solutions tailored to your business goals. For our Early Partner Program, we have special launch pricing available. Contact us for a precise quote."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How long does website development take?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "A standard professional website typically takes 2-4 weeks from concept to launch. More complex projects with advanced automations or custom web applications may take longer. We always agree on a clear timeline before starting."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Do you provide SEO services?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes! We specialize in Local SEO to help businesses rank #1 on Google and Google Maps. Our SEO strategies are designed to bring high-intent local traffic to your site and convert them into paying customers."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Can you redesign an existing website?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Absolutely. We often help businesses transform outdated, slow websites into fast, modern, and high-converting digital assets. We'll audit your current site and create a redesign strategy that preserves any existing SEO value."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Do you offer business automation?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes, we integrate intelligent business automations including WhatsApp chatbots, automated email follow-ups, CRM integrations, and lead routing to save you time and close deals faster."
+                }
+              }
+            ]
+          })
+        }}
+      />
     </div>
   );
 }

@@ -34,6 +34,7 @@ export default function Footer() {
               <li><Link href="/" className="hover:text-white transition-colors">Home</Link></li>
               <li><Link href="/about" className="hover:text-white transition-colors">About Us</Link></li>
               <li><Link href="/portfolio" className="hover:text-white transition-colors">Portfolio</Link></li>
+              <li><Link href="/locations" className="hover:text-white transition-colors">Locations</Link></li>
               <li><Link href="/blog" className="hover:text-white transition-colors">Blog</Link></li>
               <li><Link href="/contact" className="hover:text-white transition-colors">Contact</Link></li>
             </ul>
@@ -42,10 +43,10 @@ export default function Footer() {
           <div>
             <h4 className="text-white font-semibold mb-4">Services</h4>
             <ul className="space-y-2 text-sm">
-              <li><Link href="/services" className="hover:text-white transition-colors">Business Websites</Link></li>
-              <li><Link href="/services" className="hover:text-white transition-colors">Local SEO Services</Link></li>
-              <li><Link href="/services" className="hover:text-white transition-colors">Lead Generation</Link></li>
-              <li><Link href="/services" className="hover:text-white transition-colors">WhatsApp Automation</Link></li>
+              <li><Link href="/services/website-development" className="hover:text-white transition-colors">Website Development</Link></li>
+              <li><Link href="/services/seo-services" className="hover:text-white transition-colors">Local SEO Services</Link></li>
+              <li><Link href="/services/lead-generation" className="hover:text-white transition-colors">Lead Generation</Link></li>
+              <li><Link href="/services/whatsapp-automation" className="hover:text-white transition-colors">WhatsApp Automation</Link></li>
             </ul>
           </div>
 
@@ -71,9 +72,10 @@ export default function Footer() {
 
         <div className="border-t border-card-border pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-xs">
           <p>&copy; {new Date().getFullYear()} GrowthGrid. All rights reserved.</p>
-          <div className="flex gap-4">
+          <div className="flex flex-wrap justify-center gap-4">
             <Link href="/privacy-policy" className="hover:text-white transition-colors">Privacy Policy</Link>
             <Link href="/terms" className="hover:text-white transition-colors">Terms & Conditions</Link>
+            <Link href="/refund-policy" className="hover:text-white transition-colors">Refund Policy</Link>
           </div>
         </div>
       </div>
