@@ -4,7 +4,7 @@ date: "2026-06-05T12:05:00.000Z"
 excerpt: "Discover why a high-converting website is the ultimate secret weapon for AC repair businesses looking to maximize summer profits and secure AMCs."
 category: "Business Growth"
 tags: ["AC repair", "HVAC marketing", "lead generation"]
-coverImage: "https://images.unsplash.com/photo-1599839619722-39751411ea63?q=80&w=2070&auto=format&fit=crop"
+coverImage: "/images/blog/ac-repair.png"
 ---
 
 When the sweltering Indian summer hits, air conditioners are no longer a luxury; they are a vital necessity. For AC repair and HVAC businesses, the summer months represent a massive opportunity to generate revenue, secure Annual Maintenance Contracts (AMCs), and build a loyal customer base. 

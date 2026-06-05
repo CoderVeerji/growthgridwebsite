@@ -4,7 +4,7 @@ date: "2026-06-05T12:10:00.000Z"
 excerpt: "Learn how to optimize your plumbing business for Local SEO, dominate Google Maps, and generate exclusive, high-paying plumbing leads."
 category: "Local SEO"
 tags: ["plumbing SEO", "local marketing", "lead generation"]
-coverImage: "https://images.unsplash.com/photo-1607472586893-edb57cb31322?q=80&w=2070&auto=format&fit=crop"
+coverImage: "/images/blog/plumber.png"
 ---
 
 When a pipe bursts at 2 AM or a toilet overflows, a homeowner's first instinct is not to scroll through social media or look for a physical directory. They grab their smartphone in a panic, open Google, and search for an "emergency plumber near me." 
