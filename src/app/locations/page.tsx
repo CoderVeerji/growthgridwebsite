@@ -4,6 +4,9 @@ import { ArrowRight, MapPin } from "lucide-react";
 import Reveal from "@/components/ui/Reveal";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: "/locations",
+  },
   title: "Areas We Serve | Local Digital Marketing Locations | GrowthGrid",
   description: "GrowthGrid provides local SEO, website development, and lead generation services across major cities including Delhi, Gurgaon, and Noida.",
 };

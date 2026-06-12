@@ -3,6 +3,9 @@ import { getAllPosts } from "@/lib/mdx";
 import Reveal from "@/components/ui/Reveal";
 
 export const metadata = {
+  alternates: {
+    canonical: "/blog",
+  },
   title: "Blog | GrowthGrid",
   description: "Insights and strategies for local business growth.",
 };

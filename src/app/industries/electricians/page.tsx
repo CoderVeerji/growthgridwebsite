@@ -4,6 +4,9 @@ import { ArrowRight, CheckCircle2 } from "lucide-react";
 import Reveal from "@/components/ui/Reveal";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: "/industries/electricians",
+  },
   title: "Electrician Website Design & Lead Generation | GrowthGrid",
   description: "Professional electrician website design, website development, and electrician lead generation services to help you get more high-paying emergency calls.",
 };

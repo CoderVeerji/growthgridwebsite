@@ -4,6 +4,9 @@ import { ArrowRight, CheckCircle2 } from "lucide-react";
 import Reveal from "@/components/ui/Reveal";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: "/industries/plumbers",
+  },
   title: "Plumbing Website Design & Plumber Lead Generation | GrowthGrid",
   description: "Specialized plumbing website design, development, and high-quality plumber lead generation services to keep your phone ringing.",
 };

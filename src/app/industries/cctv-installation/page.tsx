@@ -4,6 +4,9 @@ import { ArrowRight, CheckCircle2 } from "lucide-react";
 import Reveal from "@/components/ui/Reveal";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: "/industries/cctv-installation",
+  },
   title: "CCTV Company Website & Lead Generation | GrowthGrid",
   description: "Grow your security business with a professional CCTV company website, CCTV lead generation, and targeted CCTV installation marketing.",
 };

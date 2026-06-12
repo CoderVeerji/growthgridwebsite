@@ -4,6 +4,9 @@ import { ArrowRight, CheckCircle2 } from "lucide-react";
 import Reveal from "@/components/ui/Reveal";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: "/delhi-website-development",
+  },
   title: "Website Development Company in Delhi | GrowthGrid",
   description: "Looking for the best website development company in Delhi? We build premium, SEO-optimized, fast-loading websites for local businesses in New Delhi.",
 };

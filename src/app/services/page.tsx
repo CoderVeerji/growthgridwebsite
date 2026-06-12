@@ -3,6 +3,9 @@ import { MonitorSmartphone, Search, TrendingUp, MessageSquare, Settings, ShieldC
 import Link from "next/link";
 
 export const metadata = {
+  alternates: {
+    canonical: "/services",
+  },
   title: "Services | GrowthGrid",
   description: "Comprehensive digital growth services including web design, SEO, and automation.",
 };

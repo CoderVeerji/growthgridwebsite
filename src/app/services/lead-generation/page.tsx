@@ -4,6 +4,9 @@ import { ArrowRight, CheckCircle2 } from "lucide-react";
 import Reveal from "@/components/ui/Reveal";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: "/services/lead-generation",
+  },
   title: "Lead Generation Services | Get More Customers | GrowthGrid",
   description: "Predictable lead generation systems. We build funnels and run campaigns that bring high-quality leads to your local business on autopilot.",
 };

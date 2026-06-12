@@ -1,6 +1,9 @@
 import Reveal from "@/components/ui/Reveal";
 
 export const metadata = {
+  alternates: {
+    canonical: "/about",
+  },
   title: "About Us | GrowthGrid",
   description: "Learn about the mission and vision of GrowthGrid.",
 };

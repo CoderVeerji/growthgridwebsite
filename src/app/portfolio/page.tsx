@@ -4,6 +4,9 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata = {
+  alternates: {
+    canonical: "/portfolio",
+  },
   title: "Portfolio | GrowthGrid",
   description: "View our premium demo projects for local businesses.",
 };

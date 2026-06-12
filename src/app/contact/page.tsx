@@ -4,6 +4,9 @@ import { Mail, Phone, MapPin } from "lucide-react";
 import { siteConfig } from "@/config/site";
 
 export const metadata = {
+  alternates: {
+    canonical: "/contact",
+  },
   title: "Contact Us | GrowthGrid",
   description: "Get in touch with GrowthGrid to start scaling your local business.",
 };

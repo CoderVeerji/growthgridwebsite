@@ -4,6 +4,9 @@ import { ArrowRight, CheckCircle2 } from "lucide-react";
 import Reveal from "@/components/ui/Reveal";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: "/gurgaon-seo-services",
+  },
   title: "SEO Services in Gurgaon | Top SEO Agency | GrowthGrid",
   description: "Dominate local search in Gurgaon. We provide advanced SEO strategies for corporate and local businesses in Gurugram.",
 };

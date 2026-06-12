@@ -3,6 +3,9 @@ import { CheckCircle } from "lucide-react";
 import Reveal from "@/components/ui/Reveal";
 
 export const metadata = {
+  alternates: {
+    canonical: "/thank-you",
+  },
   title: "Thank You | GrowthGrid",
   description: "Thank you for contacting GrowthGrid.",
 };

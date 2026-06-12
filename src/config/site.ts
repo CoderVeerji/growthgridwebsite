@@ -1,7 +1,7 @@
 export const siteConfig = {
   name: "GrowthGrid",
   description: "AI-powered digital growth agency helping local businesses generate more customers.",
-  url: "https://growthgrid.in",
+  url: "https://www.growthgrid.in",
   contact: {
     email: "growthgridlab@gmail.com",
     phone: "+918796033497",

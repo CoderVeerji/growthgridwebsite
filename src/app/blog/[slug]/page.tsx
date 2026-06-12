@@ -12,6 +12,8 @@ export async function generateStaticParams() {
   }));
 }
 
+import { siteConfig } from "@/config/site";
+
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   try {
@@ -19,6 +21,23 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     return {
       title: `${post.title} | GrowthGrid Blog`,
       description: post.excerpt,
+      alternates: {
+        canonical: `/blog/${slug}`,
+      },
+      openGraph: {
+        title: `${post.title} | GrowthGrid Blog`,
+        description: post.excerpt,
+        url: `${siteConfig.url}/blog/${slug}`,
+        type: 'article',
+        publishedTime: post.date,
+        images: post.coverImage ? [post.coverImage] : [],
+      },
+      twitter: {
+        card: "summary_large_image",
+        title: post.title,
+        description: post.excerpt,
+        images: post.coverImage ? [post.coverImage] : [],
+      }
     };
   } catch (e) {
     return {

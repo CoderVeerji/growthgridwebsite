@@ -2,6 +2,15 @@ import Link from "next/link";
 import Image from "next/image";
 import { ArrowRight, Zap, Wrench, ThermometerSnowflake, Droplets, Camera, CheckCircle2, ChevronRight } from "lucide-react";
 import Reveal from "@/components/ui/Reveal";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: "/",
+  }
+};
+
+
 
 export default function Home() {
   return (

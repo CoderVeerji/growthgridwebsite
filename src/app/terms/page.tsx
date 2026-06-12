@@ -1,6 +1,9 @@
 import Reveal from "@/components/ui/Reveal";
 
 export const metadata = {
+  alternates: {
+    canonical: "/terms",
+  },
   title: "Terms & Conditions | GrowthGrid",
   description: "Terms and conditions for using GrowthGrid services.",
 };

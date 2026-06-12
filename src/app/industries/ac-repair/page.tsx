@@ -4,6 +4,9 @@ import { ArrowRight, CheckCircle2 } from "lucide-react";
 import Reveal from "@/components/ui/Reveal";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: "/industries/ac-repair",
+  },
   title: "AC Repair & HVAC Website Design | Lead Generation | GrowthGrid",
   description: "Specialized HVAC website design, AC repair website development, and AC service lead generation to keep your technicians fully booked all summer.",
 };

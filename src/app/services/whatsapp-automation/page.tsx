@@ -4,6 +4,9 @@ import { ArrowRight, CheckCircle2 } from "lucide-react";
 import Reveal from "@/components/ui/Reveal";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: "/services/whatsapp-automation",
+  },
   title: "WhatsApp Automation Services | GrowthGrid",
   description: "Automate your customer communication. We build WhatsApp chatbots and notification systems to close deals instantly.",
 };

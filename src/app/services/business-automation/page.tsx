@@ -4,6 +4,9 @@ import { ArrowRight, CheckCircle2 } from "lucide-react";
 import Reveal from "@/components/ui/Reveal";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: "/services/business-automation",
+  },
   title: "Business Automation Services | GrowthGrid",
   description: "Save 10+ hours a week. We implement smart business automations, CRM integrations, and automated workflows.",
 };

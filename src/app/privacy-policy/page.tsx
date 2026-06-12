@@ -1,6 +1,9 @@
 import Reveal from "@/components/ui/Reveal";
 
 export const metadata = {
+  alternates: {
+    canonical: "/privacy-policy",
+  },
   title: "Privacy Policy | GrowthGrid",
   description: "Privacy policy and data handling for GrowthGrid.",
 };

@@ -4,6 +4,9 @@ import { ArrowRight, CheckCircle2 } from "lucide-react";
 import Reveal from "@/components/ui/Reveal";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: "/industries/ro-services",
+  },
   title: "RO Service Website Design & Lead Generation | GrowthGrid",
   description: "Get a professional RO service website design and exclusive RO service lead generation campaigns to acquire more annual maintenance contracts (AMC).",
 };

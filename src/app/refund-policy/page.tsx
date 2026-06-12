@@ -1,6 +1,9 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: "/refund-policy",
+  },
   title: "Refund Policy | GrowthGrid",
   description: "GrowthGrid refund policy and terms of service cancellation.",
 };

@@ -4,6 +4,9 @@ import { ArrowRight, CheckCircle2 } from "lucide-react";
 import Reveal from "@/components/ui/Reveal";
 
 export const metadata: Metadata = {
+  alternates: {
+    canonical: "/services/website-development",
+  },
   title: "Professional Website Development Services | GrowthGrid",
   description: "Get a high-converting, blazing fast website designed to turn visitors into paying customers for your local business.",
 };
